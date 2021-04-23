@@ -1,0 +1,9 @@
+.package {
+    width: 345px;
+    height: 304px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    border: solid 1px #53A9FF69;
+    opacity: 1;
+    transform: translateY(-20px);
+}

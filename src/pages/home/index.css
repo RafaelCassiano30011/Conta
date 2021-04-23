@@ -1,0 +1,35 @@
+            #root {
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .rectangle-div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 375px;
+                height: 170px;
+                opacity: 1;
+                background: transparent linear-gradient(114deg, #53A9FF 0%, #328DE8 100%) 0% 0% no-repeat padding-box;
+            }
+            
+            .money-symbol {
+                font: normal normal 900 22px/27px 'Lato';
+                color: #FFFFFF;
+            }
+            
+            .rectangle-money {
+                text-align: left;
+                font: normal normal normal 22px/27px Lato;
+                color: #FFFFFF;
+                padding-left: 10px;
+            }
+            
+            .icon-polygon {
+                display: flex;
+                width: 25px;
+                height: 25px;
+                margin-left: 10px;
+            }

@@ -1,0 +1,9 @@
+.rectangle-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 377px;
+    min-height: 170px;
+    opacity: 1;
+    background: transparent linear-gradient(114deg, #53A9FF 0%, #328DE8 100%) 0% 0% no-repeat padding-box;
+}

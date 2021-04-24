@@ -1,0 +1,8 @@
+.box-title-spans {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-right: 17px;
+    align-items: center;
+    justify-content: center;
+}

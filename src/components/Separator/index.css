@@ -1,0 +1,5 @@
+.box-separator {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}

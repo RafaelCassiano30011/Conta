@@ -1,0 +1,11 @@
+.button-navegation {
+    width: 56px;
+    height: 56px;
+    background: #53A9FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+    border-radius: 50%;
+}

@@ -1,0 +1,11 @@
+.navegation-bar {
+    width: 375px;
+    height: 40px;
+    background-color: #FFFFFF;
+    transform: translateY(-40px);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px -12px 6px #00000012;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

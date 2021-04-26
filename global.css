@@ -146,9 +146,9 @@ body {
 
 #root {
     width: 375px;
-    height: 100%;
+    height: 811px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
 }

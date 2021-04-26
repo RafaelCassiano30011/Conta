@@ -23,7 +23,7 @@
 
 .package-goals {
     width: 345px;
-    height: 270px;
+    min-height: 270px;
     background-color: #FFFFFF;
     border-radius: 9px;
     border: solid 1px #53A9FF69;

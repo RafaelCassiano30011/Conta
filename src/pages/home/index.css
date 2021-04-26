@@ -1,11 +1,3 @@
-.box-title-spans-home {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-}
-
 .wallet-money-simboly {
     text-align: left;
     font: normal normal 900 14px/17px Lato;

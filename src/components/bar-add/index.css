@@ -16,6 +16,7 @@
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+    cursor: pointer;
 }
 
 .add-expenses {
@@ -30,6 +31,7 @@
     font: normal normal normal 20px/24px Lato;
     letter-spacing: 0px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .add-transfers {
@@ -44,4 +46,5 @@
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+    cursor: pointer;
 }

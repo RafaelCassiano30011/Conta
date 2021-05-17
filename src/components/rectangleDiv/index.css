@@ -7,3 +7,16 @@
     opacity: 1;
     background: transparent linear-gradient(114deg, #53A9FF 0%, #328DE8 100%) 0% 0% no-repeat padding-box;
 }
+
+.money-symbol {
+    font: normal normal 900 22px/27px 'Lato';
+    color: #FFFFFF;
+}
+
+.rectangle-money {
+    text-align: left;
+    font-size: 22px;
+    font-family: lato;
+    color: #FFFFFF;
+    padding-left: 10px;
+}

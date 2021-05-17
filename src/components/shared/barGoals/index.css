@@ -1,0 +1,10 @@
+.bar-goals {
+    width: 176px;
+    height: 11px;
+    background: transparent linear-gradient(90deg, #53A9FF 50%, #ffffff 50%) 0% 0% no-repeat padding-box;
+    border: 1px solid #53A9FF;
+    border-radius: 6px;
+    opacity: 1;
+    transform: translateX(-56px);
+    margin-top: 20px;
+}

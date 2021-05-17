@@ -1,0 +1,35 @@
+.wrapper-value-tag {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 375px;
+    padding-right: 100px;
+}
+
+.tag-money {
+    width: 140px;
+    height: 36px;
+    background-color: #53A9FF61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.tag-money-simboly {
+    text-align: left;
+    font: normal normal 900 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #53A9FF;
+    opacity: 1;
+}
+
+.tag-span-money {
+    text-align: left;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    padding-left: 2px;
+}

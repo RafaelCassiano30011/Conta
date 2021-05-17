@@ -1,0 +1,24 @@
+.wrapper-wallet-dice {
+    margin-top: 10px;
+    width: 314px;
+    height: 108px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.wallet-data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.wallet-plots {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

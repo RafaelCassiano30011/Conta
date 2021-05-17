@@ -10,3 +10,14 @@
     align-items: center;
     padding-left: 20px;
 }
+
+.box-add {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,125 @@
+.package-goals {
+    width: 345px;
+    min-height: 270px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    border: solid 1px #53A9FF69;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    transform: translateY(-22px);
+}
+
+.package-goals-new {
+    width: 363px;
+    height: 591px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    border: solid 1px #53A9FF69;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    transform: translateY(-42px);
+}
+
+.bar-goals {
+    width: 176px;
+    height: 11px;
+    background: transparent linear-gradient(90deg, #53A9FF 50%, #ffffff 50%) 0% 0% no-repeat padding-box;
+    border: 1px solid #53A9FF;
+    border-radius: 6px;
+    opacity: 1;
+    transform: translateX(-56px);
+    margin-top: 20px;
+}
+
+.title-span-goals {
+    text-align: left;
+    font: normal normal bold 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    padding-bottom: 3px;
+    margin-left: 10px;
+}
+
+.title-end-goals {
+    text-align: center;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #53A9Ff;
+}
+
+.box-end-goals {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.span-dialed-number {
+    text-align: center;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #53A9FF;
+    opacity: 1;
+}
+
+.span-symbol-number {
+    text-align: center;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #53A9FF;
+    opacity: 1;
+}
+
+.box-value-dialed {
+    height: 36px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.dialer-number-goals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 3px #53A9FF;
+    text-align: left;
+    font: normal normal normal 40px/48px Lato;
+    letter-spacing: 0px;
+    color: #53A9FF;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.dialer-number-none-goals {
+    width: 50px;
+    height: 50px;
+}
+
+.dialer-wrapper-goals {
+    width: 190px;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0px;
+    justify-content: space-between;
+}
+
+.box-backspace-goals {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}

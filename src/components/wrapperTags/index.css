@@ -28,3 +28,19 @@
     color: #F5FAFF;
     opacity: 1;
 }
+
+.tags-add {
+    width: 106px;
+    height: 24px;
+    border: 1px solid #53A9FF8F;
+    border-radius: 7px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #53A9FF;
+    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

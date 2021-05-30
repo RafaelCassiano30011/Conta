@@ -114,7 +114,14 @@ const DialerWrapper = {
             sons: [_backSpace]
 
         })
+        const dialers = [_dialerNumber0, _dialerNumber1, _dialerNumber2, _dialerNumber3, _dialerNumber4, _dialerNumber5, _dialerNumber6, _dialerNumber7, _dialerNumber8, _dialerNumber9]
+        for (let i = 0; i < dialers.length; i++) {
+            const dialer = dialers[i]
+            dialer.addEventListener('click', () => {
+                const number = i
 
+            })
+        }
 
 
         const _dialerWrapper = Element({

@@ -2,6 +2,8 @@ import Element from "../../components/elements/element.js"
 import importCss from "../../utils/importCss/index.js"
 
 importCss('./components/WrapperValueTags/index.css')
+
+
 const WrapperValueTag = {
     build: (props) => {
         const { text } = props

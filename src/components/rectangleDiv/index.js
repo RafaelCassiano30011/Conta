@@ -22,12 +22,15 @@ const RectangleDiv = {
             src: './utils/img/poligono.png'
         })
 
+
         const _rectangleDiv = Element({
             type: 'div',
             class: ['rectangle-div'],
             sons: [moneySymbol, rectangleMoney, iconPolygon]
 
         })
+
+
         return _rectangleDiv
     }
 }

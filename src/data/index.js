@@ -130,6 +130,10 @@ const data = {
         const wallet = user.wallets.find(wallet => wallet._id === walletId)
 
         return wallet.bills
+    },
+
+    createGoals: (id, goals) => {
+
     }
 
 

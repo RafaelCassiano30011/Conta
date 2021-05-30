@@ -5,18 +5,18 @@ importCss('./components/shared/titleSpan/index.css')
 
 export const DivTitleSpanWallet = {
     build: (props) => {
-        const { text } = props
+
 
         const titleSpan2 = Element({
             type: 'span',
             class: ['title-span-2'],
-            text: text
+            text: props.conta
         })
 
         const titleSpan = Element({
             type: 'span',
             class: ['title-span'],
-            text: 'Carteira'
+            text: props.carteira
         })
 
         const _divTitleSpans = Element({
@@ -28,11 +28,11 @@ export const DivTitleSpanWallet = {
     }
 }
 export const DivTitleSpanWalletGoals = {
-    build: () => {
+    build: (props) => {
         const titleSpan = Element({
             type: 'span',
             class: ['title-span'],
-            text: 'Carteira'
+            text: props.carteira
         })
         const _divTitleSpans = Element({
             type: 'div',
@@ -43,16 +43,16 @@ export const DivTitleSpanWalletGoals = {
     }
 }
 export const DivTitleSpanBills = {
-    build: (typetext, text) => {
+    build: (props) => {
         const titleSpan = Element({
             type: 'span',
             class: ['title-span'],
-            text: typetext
+            text: props.type
         })
         const titleSpan2 = Element({
             type: 'span',
             class: ['title-span-2'],
-            text: 'Conta'
+            text: props.conta
         })
 
 
@@ -62,5 +62,18 @@ export const DivTitleSpanBills = {
             sons: [titleSpan, titleSpan2]
         })
         return _divTitleSpans
+    }
+}
+
+
+export const TitleSpanBillsData = {
+    build: (text) => {
+        const titleSpan = Element({
+            type: 'span',
+            class: ['title-span'],
+            text: text
+        })
+        return titleSpan
+
     }
 }

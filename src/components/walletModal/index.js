@@ -1,8 +1,9 @@
 import importCss from "../../utils/importCss/index.js";
 import Element from "../elements/element.js";
 import { IconRoundWallet } from "../shared/icon/index.js"
-import { BoxTitleWallet, BoxTitleWalletGoals } from "../boxTitleSpans/index.js"
+
 import BoxWalletMoney from "../boxWalletMoney/index.js"
+import boxTitle from "../boxTitleSpans/index.js";
 importCss('./components/walletModal/index.css')
 export const WalletModal = {
     build: () => {
@@ -11,10 +12,9 @@ export const WalletModal = {
         })
 
         const _iconRoundWallet = IconRoundWallet.build()
-        const _BoxTitleWallet = BoxTitleWallet.build({
-            text: 'Nubank'
+        const _BoxTitleWallet = boxTitle(null, {
+            text: 'Conta'
         })
-
         const boxSeparator = Element({
             type: 'div',
             class: ['box-separator'],
@@ -33,8 +33,9 @@ export const WalletModal2 = {
     build: () => {
 
         const _iconRoundWallet = IconRoundWallet.build()
-        const _BoxTitleWallet = BoxTitleWallet.build({
-            text: 'Nome'
+        const _BoxTitleWallet = boxTitle(null, {
+            conta: 'Nome',
+            carteira: 'Nubank'
         })
         const _plusSign = Element({
             type: 'img',

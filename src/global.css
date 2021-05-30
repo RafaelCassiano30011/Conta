@@ -163,6 +163,7 @@ body {
 }
 
 .container-bills {
+    transition-duration: 1000ms;
     width: 375px;
     height: 811px;
     display: flex;
